@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+    background-color: gray;
+}
+div{
+    margin: 40px;
+}
+img[src$=".png"]{
+    border: 5px solid red;
+}
+img[src$=".jpg"]{
+    border: 5px solid yellow;
+}
+a[target="_blank"]:hover{
+    border: dotted;
+}
